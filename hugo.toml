@@ -4,6 +4,7 @@ theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 preserveTaxonomyNames = true
 hasCJKLanguage = false
+publishDir = "docs"
 
 [taxonomies]
   tag = "tags"

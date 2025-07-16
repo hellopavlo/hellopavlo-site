@@ -1,0 +1,24 @@
+/* Custom styles for Pavlo's Blog */
+
+/* Set post-title font size to 30px */
+.post-preview > a > .post-title {
+    font-size: 30px !important;
+}
+
+/* Set h2 elements inside post-content-preview to 24px */
+.post-content-preview h2 {
+    font-size: 24px !important;
+}
+
+/* Remove hover effects from post-content-preview */
+.post-content-preview {
+    color: #8a8a8a !important;
+}
+
+.post-content-preview:hover {
+    color: #575757 !important;
+}
+
+.sidebar-container {
+    margin-top: 30px;
+}

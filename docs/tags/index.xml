@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Pavlo&#39;s Blog</title>
+    <link>https://hellopavlo.com/tags/</link>
+    <description>Recent content in Tags on Pavlo&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hellopavlo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Component-Based Architecture</title>
+      <link>https://hellopavlo.com/tags/component-based-architecture/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/component-based-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Development</title>
+      <link>https://hellopavlo.com/tags/frontend-development/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/frontend-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend Tooling</title>
+      <link>https://hellopavlo.com/tags/frontend-tooling/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/frontend-tooling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://hellopavlo.com/tags/javascript/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance Optimization</title>
+      <link>https://hellopavlo.com/tags/performance-optimization/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/performance-optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://hellopavlo.com/tags/react/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Single Page Applications</title>
+      <link>https://hellopavlo.com/tags/single-page-applications/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/single-page-applications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>State Management</title>
+      <link>https://hellopavlo.com/tags/state-management/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/state-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TypeScript</title>
+      <link>https://hellopavlo.com/tags/typescript/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UI Development</title>
+      <link>https://hellopavlo.com/tags/ui-development/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/ui-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vue</title>
+      <link>https://hellopavlo.com/tags/vue/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/vue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Applications</title>
+      <link>https://hellopavlo.com/tags/web-applications/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/web-applications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://hellopavlo.com/tags/web-development/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Development</title>
+      <link>https://hellopavlo.com/tags/api-development/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/api-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend Development</title>
+      <link>https://hellopavlo.com/tags/backend-development/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/backend-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Composer</title>
+      <link>https://hellopavlo.com/tags/composer/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/composer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://hellopavlo.com/tags/devops/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>https://hellopavlo.com/tags/laravel/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>https://hellopavlo.com/tags/microservices/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://hellopavlo.com/tags/php/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://hellopavlo.com/tags/programming/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>https://hellopavlo.com/tags/software-development/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Symfony</title>
+      <link>https://hellopavlo.com/tags/symfony/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/symfony/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://hellopavlo.com/tags/testing/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogging</title>
+      <link>https://hellopavlo.com/tags/blogging/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content Management</title>
+      <link>https://hellopavlo.com/tags/content-management/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/content-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://hellopavlo.com/tags/git/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://hellopavlo.com/tags/go/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://hellopavlo.com/tags/hugo/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JAMstack</title>
+      <link>https://hellopavlo.com/tags/jamstack/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/jamstack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://hellopavlo.com/tags/markdown/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netlify</title>
+      <link>https://hellopavlo.com/tags/netlify/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/netlify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static Site Generators</title>
+      <link>https://hellopavlo.com/tags/static-site-generators/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/static-site-generators/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://hellopavlo.com/tags/technology/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Hosting</title>
+      <link>https://hellopavlo.com/tags/web-hosting/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/web-hosting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website Performance</title>
+      <link>https://hellopavlo.com/tags/website-performance/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/website-performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Child Themes</title>
+      <link>https://hellopavlo.com/tags/child-themes/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/child-themes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CMS</title>
+      <link>https://hellopavlo.com/tags/cms/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/cms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>https://hellopavlo.com/tags/css/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Customization</title>
+      <link>https://hellopavlo.com/tags/customization/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/customization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elementor</title>
+      <link>https://hellopavlo.com/tags/elementor/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/elementor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Page Builders</title>
+      <link>https://hellopavlo.com/tags/page-builders/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/page-builders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>https://hellopavlo.com/tags/themes/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/themes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website Customization</title>
+      <link>https://hellopavlo.com/tags/website-customization/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/website-customization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website Design</title>
+      <link>https://hellopavlo.com/tags/website-design/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/website-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WordPress</title>
+      <link>https://hellopavlo.com/tags/wordpress/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://hellopavlo.com/tags/ai/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://hellopavlo.com/tags/artificial-intelligence/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://hellopavlo.com/tags/automation/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://hellopavlo.com/tags/business/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Customer Experience</title>
+      <link>https://hellopavlo.com/tags/customer-experience/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/customer-experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://hellopavlo.com/tags/data-science/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Transformation</title>
+      <link>https://hellopavlo.com/tags/digital-transformation/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/digital-transformation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise AI</title>
+      <link>https://hellopavlo.com/tags/enterprise-ai/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/enterprise-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>https://hellopavlo.com/tags/innovation/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://hellopavlo.com/tags/machine-learning/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Predictive Analytics</title>
+      <link>https://hellopavlo.com/tags/predictive-analytics/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/tags/predictive-analytics/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

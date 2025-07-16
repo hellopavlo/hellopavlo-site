@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Pavlo&#39;s Blog</title>
+    <link>https://hellopavlo.com/tags/markdown/</link>
+    <description>Recent content in Markdown on Pavlo&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hellopavlo.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://hellopavlo.com/2025/07/14/getting-started-with-hugo/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/2025/07/14/getting-started-with-hugo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is one of the most popular open-source static site generators. It&amp;rsquo;s written in Go and known for its amazing speed and flexibility. In this post, I&amp;rsquo;ll share my experience getting started with Hugo and why I chose it for my blog.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-choose-a-static-site-generator&#34;&gt;Why Choose a Static Site Generator?&lt;/h2&gt;&#xA;&lt;p&gt;Static site generators offer several advantages over traditional content management systems:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Static sites are incredibly fast since they don&amp;rsquo;t require server-side processing or database queries.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: With no database or server-side scripts, there are fewer vulnerabilities to exploit.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;: The build process is straightforward, and the resulting site is just HTML, CSS, and JavaScript.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version Control&lt;/strong&gt;: All content can be stored in a Git repository, making it easy to track changes and collaborate.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hosting Options&lt;/strong&gt;: Static sites can be hosted almost anywhere, often for free (GitHub Pages, Netlify, Vercel, etc.).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;getting-started-with-hugo&#34;&gt;Getting Started with Hugo&lt;/h2&gt;&#xA;&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;&#xA;&lt;p&gt;Installing Hugo is straightforward. On macOS, you can use Homebrew:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Pavlo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/agile/</link>
+    <description>Recent content in Agile on Pavlo&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile Product Management Essentials</title>
+      <link>http://localhost:1313/2025/07/12/agile-product-management/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/07/12/agile-product-management/</guid>
+      <description>&lt;p&gt;Product management in an agile environment requires a unique blend of skills, methodologies, and mindsets. Unlike traditional product development approaches, agile product management emphasizes flexibility, customer feedback, and iterative development. In this post, I&amp;rsquo;ll explore the essentials of agile product management and share strategies for success.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-principles-of-agile-product-management&#34;&gt;Core Principles of Agile Product Management&lt;/h2&gt;&#xA;&lt;p&gt;Agile product management is built on the foundation of the &lt;a href=&#34;https://agilemanifesto.org/&#34;&gt;Agile Manifesto&lt;/a&gt;, which values:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Individuals and interactions&lt;/strong&gt; over processes and tools&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Working software&lt;/strong&gt; over comprehensive documentation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer collaboration&lt;/strong&gt; over contract negotiation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Responding to change&lt;/strong&gt; over following a plan&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;For product managers, these principles translate into practical approaches:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

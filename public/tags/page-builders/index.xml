@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page Builders on Pavlo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/page-builders/</link>
+    <description>Recent content in Page Builders on Pavlo&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/page-builders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress Themes and Customization</title>
+      <link>http://localhost:1313/2025/07/13/wordpress-themes-customization/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/07/13/wordpress-themes-customization/</guid>
+      <description>&lt;p&gt;WordPress themes control the look and feel of your website. They provide the visual design and layout for your site, while also offering various functionality through built-in features and customization options. In this post, I&amp;rsquo;ll explore the world of WordPress themes and share tips for customizing them to create a unique website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types-of-wordpress-themes&#34;&gt;Types of WordPress Themes&lt;/h2&gt;&#xA;&lt;h3 id=&#34;free-themes&#34;&gt;Free Themes&lt;/h3&gt;&#xA;&lt;p&gt;WordPress.org offers a vast repository of free themes that you can install directly from your WordPress dashboard. These themes are reviewed by the WordPress team to ensure they meet quality standards and security requirements.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

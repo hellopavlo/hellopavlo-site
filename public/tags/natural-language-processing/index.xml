@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural Language Processing on Pavlo&#39;s Blog</title>
+    <link>https://hellopavlo.com/tags/natural-language-processing/</link>
+    <description>Recent content in Natural Language Processing on Pavlo&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hellopavlo.com/tags/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Generative AI Revolution</title>
+      <link>https://hellopavlo.com/2025/07/18/generative-ai-revolution/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://hellopavlo.com/2025/07/18/generative-ai-revolution/</guid>
+      <description>&lt;p&gt;The field of artificial intelligence has experienced numerous breakthroughs over the decades, but few have captured public imagination and transformed industries as rapidly as generative AI and large language models (LLMs). These technologies have evolved from research curiosities to powerful tools that are reshaping how we create content, write code, and interact with computers. In this post, I&amp;rsquo;ll explore the generative AI revolution, its current capabilities, challenges, and future implications.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

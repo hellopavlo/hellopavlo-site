@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Pavlo&#39;s Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="img/post-bg-wordpress.jpg">
+    <meta property="twitter:image" content="img/post-bg-wordpress.jpg" />
+    
+
+    
+    <meta name="title" content="WordPress Themes and Customization" />
+    <meta property="og:title" content="WordPress Themes and Customization" />
+    <meta property="twitter:title" content="WordPress Themes and Customization" />
+    
+
+    
+    <meta name="description" content="Pavlo, Software Developer, Open Source Enthusiast, and Technology Explorer | This is Pavlo&#39;s blog, where we discover a bigger world together.">
+    <meta property="og:description" content="Pavlo, Software Developer, Open Source Enthusiast, and Technology Explorer | This is Pavlo&#39;s blog, where we discover a bigger world together." />
+    <meta property="twitter:description" content="Pavlo, Software Developer, Open Source Enthusiast, and Technology Explorer | This is Pavlo&#39;s blog, where we discover a bigger world together." />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="Pavlo, Blog, Personal Website, Web Development, WordPress, Product Management, AI, Technology, Programming">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>WordPress Themes and Customization | Pavlo&#39;s Blog | Personal Website</title>
+
+    <link rel="canonical" href="/2025/07/13/wordpress-themes-customization/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/custom-styles.css">
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Pavlo&#39;s Blog</a>
+            </div>
+
+            
+            
+            <div id="huxblog_navbar">
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/">All Posts</a>
+                        </li>
+                        
+
+                        
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                        
+                        <li><a href="/about//">ABOUT</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </nav>
+    <script>
+        
+        
+        
+        var $body   = document.body;
+        var $toggle = document.querySelector('.navbar-toggle');
+        var $navbar = document.querySelector('#huxblog_navbar');
+        var $collapse = document.querySelector('.navbar-collapse');
+
+        $toggle.addEventListener('click', handleMagic)
+        function handleMagic(e){
+            if ($navbar.className.indexOf('in') > 0) {
+                
+                $navbar.className = " ";
+                
+                setTimeout(function(){
+                    
+                    if($navbar.className.indexOf('in') < 0) {
+                        $collapse.style.height = "0px"
+                    }
+                },400)
+            }else{
+                
+                $collapse.style.height = "auto"
+                $navbar.className += " in";
+            }
+        }
+    </script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Pavlo&#39;s Blog </h1>
+                    
+		    <span class="subheading">Journey through technology and beyond</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+            
+                <p>WordPress themes control the look and feel of your website. They provide the visual design and layout for your site, while also offering various functionality through built-in features and customization options. In this post, I&rsquo;ll explore the world of WordPress themes and share tips for customizing them to create a unique website.</p>
+<h2 id="types-of-wordpress-themes">Types of WordPress Themes</h2>
+<h3 id="free-themes">Free Themes</h3>
+<p>WordPress.org offers a vast repository of free themes that you can install directly from your WordPress dashboard. These themes are reviewed by the WordPress team to ensure they meet quality standards and security requirements.</p>
+<p>Pros of free themes:</p>
+<ul>
+<li>No cost</li>
+<li>Easy to install and try out</li>
+<li>Many options to choose from</li>
+</ul>
+<p>Cons of free themes:</p>
+<ul>
+<li>Limited support</li>
+<li>Fewer customization options</li>
+<li>Less frequent updates</li>
+<li>May lack advanced features</li>
+</ul>
+<h3 id="premium-themes">Premium Themes</h3>
+<p>Premium themes are paid themes that typically offer more features, better support, and regular updates. Popular premium theme marketplaces include ThemeForest, StudioPress, and Elegant Themes.</p>
+<p>Pros of premium themes:</p>
+<ul>
+<li>Higher quality design</li>
+<li>More customization options</li>
+<li>Regular updates</li>
+<li>Dedicated support</li>
+<li>Advanced features</li>
+</ul>
+<p>Cons of premium themes:</p>
+<ul>
+<li>Cost (typically $30-100)</li>
+<li>Can be overwhelming with too many options</li>
+<li>May include features you don&rsquo;t need</li>
+</ul>
+<h2 id="customizing-your-wordpress-theme">Customizing Your WordPress Theme</h2>
+<h3 id="using-the-wordpress-customizer">Using the WordPress Customizer</h3>
+<p>The WordPress Customizer is a built-in tool that allows you to make changes to your theme and see the results in real-time before publishing them. To access it, go to Appearance &gt; Customize in your WordPress dashboard.</p>
+<p>Common customization options include:</p>
+<ul>
+<li>Site identity (logo, site title, tagline)</li>
+<li>Colors</li>
+<li>Typography</li>
+<li>Header and footer options</li>
+<li>Layout settings</li>
+<li>Widget areas</li>
+</ul>
+<h3 id="child-themes">Child Themes</h3>
+<p>A child theme is a theme that inherits the functionality and styling of another theme (the parent theme). Child themes allow you to modify a theme without losing your changes when the parent theme is updated.</p>
+<p>To create a child theme:</p>
+<ol>
+<li>Create a new folder in your wp-content/themes directory</li>
+<li>Create a style.css file with the following header:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#6272a4">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Theme Name:   My Child Theme
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Theme URI:    http://example.com/my-child-theme/
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Description:  My Child Theme
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Author:       Your Name
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Author URI:   http://example.com
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Template:     parent-theme-folder
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Version:      1.0.0
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4"> Text Domain:  my-child-theme
+</span></span></span><span style="display:flex;"><span><span style="color:#6272a4">*/</span>
+</span></span></code></pre></div><ol start="3">
+<li>Create a functions.php file to enqueue the parent theme&rsquo;s stylesheet:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#ff79c6">&lt;?</span>php
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">function</span> <span style="color:#50fa7b">my_child_theme_enqueue_styles</span>() {
+</span></span><span style="display:flex;"><span>    wp_enqueue_style( <span style="color:#f1fa8c">&#39;parent-style&#39;</span>, get_template_directory_uri() <span style="color:#ff79c6">.</span> <span style="color:#f1fa8c">&#39;/style.css&#39;</span> );
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>add_action( <span style="color:#f1fa8c">&#39;wp_enqueue_scripts&#39;</span>, <span style="color:#f1fa8c">&#39;my_child_theme_enqueue_styles&#39;</span> );
+</span></span></code></pre></div><h3 id="custom-css">Custom CSS</h3>
+<p>For simpler customizations, you can add custom CSS without creating a child theme. WordPress includes a built-in CSS editor under Appearance &gt; Customize &gt; Additional CSS.</p>
+<p>Example custom CSS to change the header color:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#50fa7b">site-header</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#3498db</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="page-builders">Page Builders</h3>
+<p>Page builders like Elementor, Beaver Builder, and Divi make it easy to create custom layouts without coding. They offer drag-and-drop interfaces and pre-designed elements that you can use to build complex page designs.</p>
+<h2 id="best-practices-for-wordpress-theme-customization">Best Practices for WordPress Theme Customization</h2>
+<ol>
+<li><strong>Always use a child theme</strong> for significant modifications to prevent losing changes during updates.</li>
+<li><strong>Keep it simple</strong> - don&rsquo;t add unnecessary customizations that can slow down your site.</li>
+<li><strong>Test across devices</strong> to ensure your customizations look good on mobile, tablet, and desktop.</li>
+<li><strong>Optimize images</strong> before uploading them to your site.</li>
+<li><strong>Use a caching plugin</strong> to improve performance after making customizations.</li>
+<li><strong>Document your changes</strong> so you can remember what you&rsquo;ve modified.</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>WordPress themes provide the foundation for your website&rsquo;s design and functionality. Whether you choose a free or premium theme, customizing it to match your brand and requirements is essential for creating a unique online presence.</p>
+<p>In future posts, I&rsquo;ll explore specific WordPress themes and share step-by-step tutorials for customizing them. Stay tuned!</p>
+<p>Have you customized a WordPress theme? Share your experiences and tips in the comments below.</p>
+
+            
+             
+            
+
+
+
+
+            
+            </div>
+            
+            
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/avatar.jpg" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>Software Developer, Technology Enthusiast, and Digital Explorer</p>
+            
+           
+           <ul class="list-inline">
+               
+               <li>
+                   <a href="mailto:pavlo@hellopavlo.com">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a href="https://twitter.com/hellopavlo">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/hellopavlo">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://www.linkedin.com/in/pavlo.opanasenko">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/frontend-development" title="frontend development">
+                        frontend development
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/performance-optimization" title="performance optimization">
+                        performance optimization
+                    </a>
+               
+            
+               
+                    <a href="/tags/php" title="php">
+                        php
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/technology" title="technology">
+                        technology
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/web-development" title="web development">
+                        web development
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    
+</div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:pavlo@hellopavlo.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/hellopavlo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/hellopavlo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/pavlo.opanasenko">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Pavlo's Blog 2025
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+        _containerSelector = 'div.post-container'
+        
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+</body>
+</html>

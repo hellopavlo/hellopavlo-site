@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Pavlo&#39;s Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="img/contact-bg.jpg">
+    <meta property="twitter:image" content="img/contact-bg.jpg" />
+    
+
+    
+    <meta name="title" content="The Generative AI Revolution" />
+    <meta property="og:title" content="The Generative AI Revolution" />
+    <meta property="twitter:title" content="The Generative AI Revolution" />
+    
+
+    
+    <meta name="description" content="Pavlo, Software Developer, Open Source Enthusiast, and Technology Explorer | This is Pavlo&#39;s blog, where we discover a bigger world together.">
+    <meta property="og:description" content="Pavlo, Software Developer, Open Source Enthusiast, and Technology Explorer | This is Pavlo&#39;s blog, where we discover a bigger world together." />
+    <meta property="twitter:description" content="Pavlo, Software Developer, Open Source Enthusiast, and Technology Explorer | This is Pavlo&#39;s blog, where we discover a bigger world together." />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="Pavlo, Blog, Personal Website, Web Development, WordPress, Product Management, AI, Technology, Programming">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>The Generative AI Revolution | Pavlo&#39;s Blog | Personal Website</title>
+
+    <link rel="canonical" href="/2025/07/18/generative-ai-revolution/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    <link rel="stylesheet" href="https://hellopavlo.com/css/custom-styles.css">
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Pavlo&#39;s Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                    
+		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Pavlo&#39;s Blog </h1>
+                    
+		    <span class="subheading">Journey through technology and beyond</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+            
+                <p>The field of artificial intelligence has experienced numerous breakthroughs over the decades, but few have captured public imagination and transformed industries as rapidly as generative AI and large language models (LLMs). These technologies have evolved from research curiosities to powerful tools that are reshaping how we create content, write code, and interact with computers. In this post, I&rsquo;ll explore the generative AI revolution, its current capabilities, challenges, and future implications.</p>
+<h2 id="understanding-generative-ai-and-llms">Understanding Generative AI and LLMs</h2>
+<p>Generative AI refers to artificial intelligence systems that can create new content, including text, images, audio, and video. Large Language Models are a specific type of generative AI that focuses on text generation and understanding.</p>
+<h3 id="how-llms-work">How LLMs Work</h3>
+<p>At their core, LLMs are neural networks trained on vast amounts of text data. The training process involves:</p>
+<ol>
+<li><strong>Pretraining</strong>: The model learns patterns and relationships in language by predicting the next word in a sequence or filling in masked words.</li>
+<li><strong>Fine-tuning</strong>: The model is further trained on specific tasks or with human feedback to improve its capabilities and align with human preferences.</li>
+<li><strong>Inference</strong>: The trained model generates text based on prompts, using its learned patterns to produce coherent and contextually appropriate responses.</li>
+</ol>
+<p>Modern LLMs like GPT-4, Claude, and Llama 2 contain hundreds of billions of parameters, allowing them to capture complex linguistic patterns and knowledge.</p>
+<h3 id="key-capabilities-of-modern-llms">Key Capabilities of Modern LLMs</h3>
+<p>Today&rsquo;s advanced LLMs demonstrate remarkable capabilities:</p>
+<ul>
+<li><strong>Natural language understanding</strong>: Comprehending complex instructions and nuanced questions</li>
+<li><strong>Content generation</strong>: Creating essays, stories, code, and other text-based content</li>
+<li><strong>Translation</strong>: Converting text between languages while preserving meaning and context</li>
+<li><strong>Summarization</strong>: Distilling long documents into concise summaries</li>
+<li><strong>Question answering</strong>: Providing informative responses to a wide range of queries</li>
+<li><strong>Reasoning</strong>: Working through problems step-by-step with chain-of-thought processes</li>
+<li><strong>Code generation</strong>: Writing and explaining programming code across multiple languages</li>
+</ul>
+<h2 id="the-evolution-of-generative-ai">The Evolution of Generative AI</h2>
+<h3 id="from-gpt-1-to-modern-systems">From GPT-1 to Modern Systems</h3>
+<p>The progression of generative AI has been rapid:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Year</th>
+          <th>Parameters</th>
+          <th>Key Advancements</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>GPT-1</td>
+          <td>2018</td>
+          <td>117M</td>
+          <td>Demonstrated the potential of transformer-based language models</td>
+      </tr>
+      <tr>
+          <td>GPT-2</td>
+          <td>2019</td>
+          <td>1.5B</td>
+          <td>Showed surprisingly coherent text generation capabilities</td>
+      </tr>
+      <tr>
+          <td>GPT-3</td>
+          <td>2020</td>
+          <td>175B</td>
+          <td>Revealed emergent abilities and few-shot learning</td>
+      </tr>
+      <tr>
+          <td>GPT-4</td>
+          <td>2023</td>
+          <td>Undisclosed</td>
+          <td>Multimodal capabilities and significantly improved reasoning</td>
+      </tr>
+  </tbody>
+</table>
+<p>This evolution has been accompanied by similar advancements from other research labs and companies, creating a competitive and rapidly advancing field.</p>
+<h3 id="multimodal-systems">Multimodal Systems</h3>
+<p>The latest frontier in generative AI is multimodal systems that can work with multiple types of data:</p>
+<ul>
+<li><strong>Text-to-image models</strong> like DALL-E, Midjourney, and Stable Diffusion can create images from text descriptions</li>
+<li><strong>Text-to-video models</strong> can generate short video clips based on text prompts</li>
+<li><strong>Text-to-audio models</strong> can create realistic speech, music, and sound effects</li>
+<li><strong>Multimodal LLMs</strong> can process both text and images as input, reasoning about visual content</li>
+</ul>
+<h2 id="applications-of-generative-ai">Applications of Generative AI</h2>
+<p>Generative AI is being applied across numerous domains:</p>
+<h3 id="content-creation-and-marketing">Content Creation and Marketing</h3>
+<ul>
+<li><strong>Copywriting</strong>: Generating marketing copy, product descriptions, and social media content</li>
+<li><strong>Creative writing</strong>: Assisting with stories, scripts, and other creative content</li>
+<li><strong>Image generation</strong>: Creating custom illustrations, product visualizations, and marketing materials</li>
+<li><strong>Content personalization</strong>: Tailoring content to specific audiences and contexts</li>
+</ul>
+<h3 id="software-development">Software Development</h3>
+<ul>
+<li><strong>Code generation</strong>: Writing code based on natural language descriptions</li>
+<li><strong>Code completion</strong>: Suggesting code as developers type</li>
+<li><strong>Documentation</strong>: Generating and improving code documentation</li>
+<li><strong>Debugging</strong>: Identifying and fixing bugs in existing code</li>
+<li><strong>Testing</strong>: Generating test cases and scenarios</li>
+</ul>
+<h3 id="education-and-research">Education and Research</h3>
+<ul>
+<li><strong>Personalized tutoring</strong>: Providing customized explanations and learning materials</li>
+<li><strong>Research assistance</strong>: Summarizing papers, generating hypotheses, and analyzing data</li>
+<li><strong>Content creation</strong>: Developing educational materials and exercises</li>
+<li><strong>Language learning</strong>: Offering conversation practice and grammar correction</li>
+</ul>
+<h3 id="business-and-productivity">Business and Productivity</h3>
+<ul>
+<li><strong>Customer service</strong>: Powering advanced chatbots and virtual assistants</li>
+<li><strong>Meeting summaries</strong>: Generating concise summaries of conversations and meetings</li>
+<li><strong>Email management</strong>: Drafting, summarizing, and categorizing emails</li>
+<li><strong>Data analysis</strong>: Extracting insights from unstructured text data</li>
+</ul>
+<h2 id="prompt-engineering-and-llm-interaction">Prompt Engineering and LLM Interaction</h2>
+<p>As LLMs have become more powerful, a new discipline has emerged: prompt engineering, the art and science of crafting effective prompts to get the best results from generative AI systems.</p>
+<h3 id="effective-prompting-techniques">Effective Prompting Techniques</h3>
+<p>Several techniques have proven effective for working with LLMs:</p>
+<ol>
+<li><strong>Clear instructions</strong>: Being specific about the desired output format, tone, and content</li>
+<li><strong>Context provision</strong>: Providing relevant background information</li>
+<li><strong>Few-shot examples</strong>: Demonstrating the expected output with examples</li>
+<li><strong>Chain-of-thought prompting</strong>: Asking the model to work through problems step by step</li>
+<li><strong>Role prompting</strong>: Assigning a specific role or persona to the model</li>
+</ol>
+<h3 id="example-improving-llm-outputs">Example: Improving LLM Outputs</h3>
+<p>Consider how different prompting approaches can yield different results:</p>
+<p><strong>Basic prompt:</strong></p>
+<pre tabindex="0"><code>Write about climate change.
+</code></pre><p><strong>Improved prompt:</strong></p>
+<pre tabindex="0"><code>As an environmental scientist with expertise in climate policy, write a 500-word analysis of the most effective governmental policies for reducing carbon emissions. Include specific examples from countries that have successfully implemented such policies, and address both the economic and environmental impacts. Structure your response with an introduction, 3-4 main points with supporting evidence, and a conclusion with recommendations.
+</code></pre><p>The second prompt is much more likely to generate a focused, informative, and well-structured response.</p>
+<h2 id="ethical-considerations-and-challenges">Ethical Considerations and Challenges</h2>
+<p>The rapid advancement of generative AI brings significant challenges and ethical considerations:</p>
+<h3 id="misinformation-and-deepfakes">Misinformation and Deepfakes</h3>
+<p>Generative AI can create convincing but false content:</p>
+<ul>
+<li>Text that appears authoritative but contains factual errors</li>
+<li>Realistic images and videos of events that never occurred</li>
+<li>Audio that mimics real people saying things they never said</li>
+</ul>
+<p>Addressing these challenges requires:</p>
+<ul>
+<li>Watermarking and provenance tracking for AI-generated content</li>
+<li>Media literacy education for the public</li>
+<li>Technical solutions for detecting AI-generated content</li>
+</ul>
+<h3 id="bias-and-fairness">Bias and Fairness</h3>
+<p>LLMs can reflect and amplify biases present in their training data:</p>
+<ul>
+<li>Stereotypical representations of different groups</li>
+<li>Unequal quality of service across languages and cultures</li>
+<li>Encoding of historical prejudices and inequalities</li>
+</ul>
+<p>Mitigating these issues involves:</p>
+<ul>
+<li>Diverse and representative training data</li>
+<li>Bias evaluation and mitigation techniques</li>
+<li>Ongoing monitoring and improvement</li>
+</ul>
+<h3 id="privacy-and-data-rights">Privacy and Data Rights</h3>
+<p>Training and using generative AI raises privacy concerns:</p>
+<ul>
+<li>Use of copyrighted or personal data in training</li>
+<li>Generation of content that reveals private information</li>
+<li>Potential for extracting training data through specific prompts</li>
+</ul>
+<p>Addressing these concerns requires:</p>
+<ul>
+<li>Clear policies on data usage and consent</li>
+<li>Technical safeguards against data extraction</li>
+<li>Respect for copyright and intellectual property</li>
+</ul>
+<h3 id="economic-disruption">Economic Disruption</h3>
+<p>Generative AI is already changing labor markets:</p>
+<ul>
+<li>Automation of certain creative and knowledge work tasks</li>
+<li>Creation of new roles and specializations</li>
+<li>Shifting skill requirements across industries</li>
+</ul>
+<p>Preparing for these changes involves:</p>
+<ul>
+<li>Education and reskilling programs</li>
+<li>Thoughtful integration of AI into workflows</li>
+<li>Policies that support workers through transitions</li>
+</ul>
+<h2 id="the-future-of-generative-ai">The Future of Generative AI</h2>
+<p>Looking ahead, several trends are likely to shape the evolution of generative AI:</p>
+<h3 id="technical-advancements">Technical Advancements</h3>
+<ul>
+<li><strong>Improved reasoning</strong>: Enhanced logical reasoning and problem-solving capabilities</li>
+<li><strong>Multimodal integration</strong>: Seamless work across text, images, audio, and video</li>
+<li><strong>Efficiency improvements</strong>: More powerful models that require less computational resources</li>
+<li><strong>Specialized models</strong>: Domain-specific models optimized for particular applications</li>
+</ul>
+<h3 id="integration-and-accessibility">Integration and Accessibility</h3>
+<ul>
+<li><strong>AI-native applications</strong>: Software designed from the ground up to leverage generative AI</li>
+<li><strong>Democratized access</strong>: More accessible tools for non-technical users</li>
+<li><strong>Personalized AI</strong>: Systems that adapt to individual users&rsquo; needs and preferences</li>
+<li><strong>Embedded AI</strong>: Generative capabilities integrated into everyday applications</li>
+</ul>
+<h3 id="regulatory-landscape">Regulatory Landscape</h3>
+<ul>
+<li><strong>AI-specific regulations</strong>: New laws governing the development and use of generative AI</li>
+<li><strong>Industry standards</strong>: Emerging best practices and self-regulation</li>
+<li><strong>International cooperation</strong>: Global frameworks for managing AI development</li>
+<li><strong>Certification systems</strong>: Verification of AI systems&rsquo; safety and compliance</li>
+</ul>
+<h2 id="getting-started-with-generative-ai">Getting Started with Generative AI</h2>
+<p>For those looking to explore generative AI, here are some starting points:</p>
+<h3 id="for-users">For Users</h3>
+<ol>
+<li><strong>Experiment with public models</strong>: Try services like ChatGPT, Claude, or Bard</li>
+<li><strong>Learn prompt engineering</strong>: Practice crafting effective prompts for different tasks</li>
+<li><strong>Stay informed</strong>: Follow developments in the field through reliable sources</li>
+<li><strong>Consider use cases</strong>: Identify specific problems generative AI could help solve</li>
+</ol>
+<h3 id="for-developers">For Developers</h3>
+<ol>
+<li><strong>Explore APIs</strong>: Use OpenAI, Anthropic, or other providers&rsquo; APIs to build applications</li>
+<li><strong>Try open-source models</strong>: Experiment with models like Llama 2 or Falcon</li>
+<li><strong>Learn about fine-tuning</strong>: Understand how to adapt models for specific use cases</li>
+<li><strong>Consider ethical implications</strong>: Build responsible safeguards into your applications</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>The generative AI revolution represents one of the most significant technological shifts of our time. These systems are already transforming how we work, create, and interact with technology, with far-reaching implications for society, economy, and culture.</p>
+<p>As with any powerful technology, the impact of generative AI will depend on how we choose to develop and deploy it. By approaching these tools thoughtfully—maximizing their benefits while addressing their risks—we can harness generative AI to augment human creativity, solve complex problems, and create new possibilities.</p>
+<p>The coming years will be crucial in determining how this technology evolves and how we adapt alongside it. Whether you&rsquo;re a developer, business leader, policymaker, or simply an interested observer, staying informed and engaged with these developments will be increasingly important.</p>
+<p>What are your experiences with generative AI? How do you see it affecting your field or daily life? Share your thoughts in the comments below.</p>
+
+            
+             
+            
+
+
+
+
+            
+            </div>
+            
+            
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/avatar.jpg" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>Software Developer, Technology Enthusiast, and Digital Explorer</p>
+            
+           
+           <ul class="list-inline">
+               
+               <li>
+                   <a href="mailto:hello@pavlo.com">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a href="https://twitter.com/pavlo">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/pavlo">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://www.linkedin.com/in/pavlo">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/artificial-intelligence" title="artificial intelligence">
+                        artificial intelligence
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/data-science" title="data science">
+                        data science
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/frontend-development" title="frontend development">
+                        frontend development
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/innovation" title="innovation">
+                        innovation
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/machine-learning" title="machine learning">
+                        machine learning
+                    </a>
+               
+            
+               
+            
+               
+                    <a href="/tags/metrics" title="metrics">
+                        metrics
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/performance-optimization" title="performance optimization">
+                        performance optimization
+                    </a>
+               
+            
+               
+                    <a href="/tags/php" title="php">
+                        php
+                    </a>
+               
+            
+               
+            
+               
+                    <a href="/tags/product-management" title="product management">
+                        product management
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/software-development" title="software development">
+                        software development
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/technology" title="technology">
+                        technology
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/web-development" title="web development">
+                        web development
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FRIENDS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://friend.com">Friend&#39;s Blog</a></li>
+            
+        </ul>
+    </section>
+    
+    
+</div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:hello@pavlo.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/pavlo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/pavlo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/pavlo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Pavlo's Blog 2025
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+        _containerSelector = 'div.post-container'
+        
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+</body>
+</html>
